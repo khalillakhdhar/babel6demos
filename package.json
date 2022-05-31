@@ -310,6 +310,8 @@
     "lite-server": "^2.6.1"
   },
   "scripts": {
+    "babel":"babel --presets es2015 src/scripts.js -o dev/scripts.bundle.js",
+    "build":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
